@@ -4,6 +4,8 @@ students = ["Jon", "Kim", "Lee"]
 # add new students after the list is created
 students.append("Sara")
 students.append("Miko")
+# change Jon to John
+students[0] = 'John'
 
 # function to print 'Hi name' for each student in the list
 # and also print the total number of students
